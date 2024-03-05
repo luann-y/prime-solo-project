@@ -1,9 +1,10 @@
 import React from "react";
-import myImage from '../../../public/Images/coffee.jpg'
+import myImage from '../../../public/Images/coffee.jpg';
+import './Header.css';
 
 function Header() {
     return(
-        <div>
+        <div className="hero">
             <img src={myImage} alt="Coffee Image" />
         </div>
     );
