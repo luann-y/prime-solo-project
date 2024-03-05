@@ -2,6 +2,9 @@
     height: 400px;
     width: 100%;
     position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .hero img {
@@ -13,3 +16,29 @@
     object-fit: cover;
     object-position: center;
 }
+
+.hero h1 {
+    text-transform: uppercase;
+    color: white;
+    text-align: center;
+    margin-bottom: 0;
+    margin-top: 0;
+    z-index: 1;
+    position: relative;
+    font-size: 50px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+.montserrat {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.montserrat-bold {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+  }
